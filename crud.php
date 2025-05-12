@@ -39,7 +39,9 @@ class Crud
 
 
     public function update() {}
+
     public function show() {}
+
     public function delete($id)
     {
         global $db;
