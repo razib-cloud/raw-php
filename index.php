@@ -58,9 +58,9 @@ if (isset($_POST['BtnDelete'])) {
                    
                     <input type="hidden" class="form-control" name="id" value="$product[id]">
 
-                    <button class='btn btn-info'>Show</button>
+                   <a href="update.php" class='btn btn-primary'>Update</a>
                         <button class='btn btn-danger' name='BtnDelete'>X</button>
-                        <button class='btn btn-primary'>Update</button>
+                        
                     
                     </form>
                         
